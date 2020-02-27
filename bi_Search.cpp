@@ -4,6 +4,7 @@ using namespace std;
 int binarySearch(int a[], int target, int size){
 	int min =0;
 	int max = size-1;
+		cout << sizeof(a)/sizeof(int);
 	while (max>= min) {
 		int mid =(min+max)/2;
 		if (a[mid]==target){
@@ -22,6 +23,7 @@ int binarySearch(int a[], int target, int size){
 int main(){
 	int n =5;
 	int arr[n] = {4,2,7,5,9};
+
 	int target_index = binarySearch(arr, 7, 5);
 	cout << target_index;
 }
