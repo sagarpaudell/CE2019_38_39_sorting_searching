@@ -7,7 +7,7 @@ void Quicksort(int a[],int lb,int ub);
 int a[10]={4,2,5,7,5,8,2,8,10,16};
 
 	
-int main(){
+/*int main(){
 int lb=0;
 int ub=9;
 	cout << "Unsorted array\t";
@@ -24,14 +24,13 @@ int ub=9;
 	
 	
 
-}
+}*/
 
 
 
 
 //Quick sort
 int partition(int a[],int lb,int ub){
-	cout<<"In p 2"<<endl;
 	int pivot = a[lb];
 	int i = lb;
 	int j = ub;
